@@ -1,0 +1,24 @@
+.title {
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+    font-size: 1.5em;
+}
+
+.link {
+    margin-right: 1rem;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.full-width-nav {
+    width: 90%;
+    margin: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
