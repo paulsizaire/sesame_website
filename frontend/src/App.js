@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
 import Navigation from './components/Navigation';
-import softwarePic from './software_picture.png';
+import CatchPhrase from './components/CatchPhrase';
+import Features from './components/Features';
+import Footer from './components/Footer';
 import './App.css';
-
 
 
 function App() {
@@ -48,6 +49,20 @@ function App() {
   return (
     <div>
       <Navigation />
+      <section id="product">
+        <CatchPhrase />
+      </section>
+
+      <section id="features">
+        <Features />
+      </section>
+
+      <section id="company">
+      </section>
+
+      <Footer />
+
+      {/* <Navigation />
       <Element id='section1' className="full-width-section section-margin">
         <div className="row">
           <div className="one-half column">
@@ -78,7 +93,7 @@ function App() {
 
       <Element id='section3' className="full-width-section">
         Hey Section 3
-      </Element>
+      </Element> */}
     </div>
   );
 }
